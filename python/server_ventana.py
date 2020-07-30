@@ -1,18 +1,16 @@
 
 """
-Nombre:server.py
-Objetivo: crear un server por medio de sockets
+Nombre:server_ventana.py
+Objetivo: recibir los datos de una ventana y enviarlos por sockets
 Autor:Abel Romero Ruiz
-Fecha:28 de julio  de 2020
+Fecha:29 de julio  de 2020
 """
 #!/usr/bin/env python3
 
 import socket
 
-HOST = '192.168.1.69'  # Standard loopback interface address (localhost)
+HOST = 'localhost'  # Standard loopback interface address (localhost)
 PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
-
-
 
 
 

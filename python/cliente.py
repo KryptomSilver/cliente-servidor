@@ -1,3 +1,11 @@
+
+"""
+Nombre:cliente.py
+Objetivo: conectar hacia el servidor por medio de sockets y enviar datos
+Autor:Abel Romero Ruiz
+Fecha:28 de julio  de 2020
+"""
+
 #!/usr/bin/env python3
 
 import socket
